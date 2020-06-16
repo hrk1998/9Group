@@ -7,6 +7,9 @@ import com.hrm.dto.emp.empDepSearchDTO;
 import java.util.Date;
 import java.util.List;
 
+/*
+对员工信息表进行操作
+ */
 public interface EmployeeMapperDemo {
     //插入
     void insertEmp(EmployeeDemo employeeDemo);

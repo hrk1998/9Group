@@ -7,6 +7,9 @@ import com.hrm.bean.PositionDemo;
 import java.util.Date;
 import java.util.List;
 
+/*
+对员工调动信息表进行操作
+ */
 public interface ChangeMapperDemo {
     //插入
     void insertChange(ChangeDemo changeDemo);

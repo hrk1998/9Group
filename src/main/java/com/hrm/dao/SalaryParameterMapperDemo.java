@@ -5,6 +5,9 @@ import com.hrm.bean.SalaryParameterDemo;
 
 import java.util.List;
 
+/*
+对工资操作表进行操作
+ */
 public interface SalaryParameterMapperDemo {
     //插入
     void insertSalaryParameter(SalaryParameterDemo salaryParameterDemo);

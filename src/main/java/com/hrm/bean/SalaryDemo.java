@@ -1,5 +1,8 @@
 package com.hrm.bean;
 
+/*
+对工资表进行操作
+ */
 public class SalaryDemo {
     //员工编号
     private Integer EMP_ID;

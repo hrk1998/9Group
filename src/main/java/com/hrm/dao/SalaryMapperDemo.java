@@ -7,6 +7,9 @@ import com.hrm.bean.SalaryDemo;
 import java.util.Date;
 import java.util.List;
 
+/*
+对工资表进行操作
+ */
 public interface SalaryMapperDemo {
     //插入
     void insertSalary(SalaryDemo salaryDemo);

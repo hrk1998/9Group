@@ -7,6 +7,9 @@ import com.hrm.bean.PositionDemo;
 import java.util.Date;
 import java.util.List;
 
+/*
+对职位表进行操作
+ */
 public interface PositionMapperDemo {
     //插入
     void insertPosition(PositionDemo positionDemo);

@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.Date;
 
+/*
+对员工调动信息表进行操作
+ */
 public class ChangeDemo {
     //员工编号
     private Integer EMP_ID;

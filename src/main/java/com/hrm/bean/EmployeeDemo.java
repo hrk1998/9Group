@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.Date;
 
+/*
+对员工信息表进行操作
+ */
 public class EmployeeDemo {
     //员工编号
     private Integer EMP_ID;

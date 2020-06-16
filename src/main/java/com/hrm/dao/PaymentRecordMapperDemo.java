@@ -7,6 +7,9 @@ import com.hrm.bean.PaymentRecordDemo;
 import java.util.Date;
 import java.util.List;
 
+/*
+对财务缴费表进行操作
+ */
 public interface PaymentRecordMapperDemo {
     //插入
     void insertPaymentRecord(PaymentRecordDemo paymentRecordDemo);

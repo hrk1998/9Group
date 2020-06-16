@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.Date;
 
+/*
+对机构表进行操作
+ */
 public class InstitutionDemo {
     //机构代码
     private Integer INS_ID;

@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.Date;
 
+/*
+对职位表进行操作
+ */
 public class PositionDemo {
     //员工编号
     private Integer EMP_ID;

@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.Date;
 
+/*
+对招聘表进行操作
+ */
 public class RecruitDemo {
     //招聘编号
     private Integer RECR_ID;

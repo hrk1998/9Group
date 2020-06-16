@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.Date;
 
+/*
+对财务缴费表进行操作
+ */
 public class PaymentRecordDemo {
     //员工编号
     private Integer EMP_ID;

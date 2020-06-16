@@ -7,6 +7,9 @@ import com.hrm.bean.InstitutionDemo;
 import java.util.Date;
 import java.util.List;
 
+/*
+对机构表进行操作
+ */
 public interface InstitutionMapperDemo {
     //插入
     void insertInstitution(InstitutionDemo institutionDemo);

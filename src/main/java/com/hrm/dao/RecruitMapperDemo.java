@@ -7,6 +7,9 @@ import com.hrm.bean.RecruitDemo;
 import java.util.Date;
 import java.util.List;
 
+/*
+对招聘表进行操作
+ */
 public interface RecruitMapperDemo {
     //插入
     void insertRecruit(RecruitDemo recruitDemo);
