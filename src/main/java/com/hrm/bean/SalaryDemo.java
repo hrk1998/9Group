@@ -6,7 +6,7 @@ public class SalaryDemo {
     //员工姓名
     private String EMP_NAME;
     //加班费
-    private Integer OVERDAL;
+    private Integer OVERSAL;
     //基本工资
     private Integer BASESAL;
     //奖金
@@ -34,12 +34,12 @@ public class SalaryDemo {
         this.EMP_NAME = EMP_NAME;
     }
 
-    public Integer getOVERDAL() {
-        return OVERDAL;
+    public Integer getOVERSAL() {
+        return OVERSAL;
     }
 
-    public void setOVERDAL(Integer OVERDAL) {
-        this.OVERDAL = OVERDAL;
+    public void setOVERSAL(Integer OVERDAL) {
+        this.OVERSAL = OVERDAL;
     }
 
     public Integer getBASESAL() {

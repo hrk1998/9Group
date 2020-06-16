@@ -24,16 +24,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f36781d-31ee-4f73-adce-bea0fe74c7b8" name="Default Changelist" comment="">
+    <list default="true" id="3f36781d-31ee-4f73-adce-bea0fe74c7b8" name="Default Changelist" comment="第二次传输By何人可">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/InstitutionMapperDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/PaymentRecordMapperDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/RecruitMapperDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/SalaryMapperDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/SalaryParameterMapperDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/EmployeeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/EmployeeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/InstitutionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/InstitutionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/PaymentRecordDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/PaymentRecordDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/PositionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/PositionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/SalaryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/SalaryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/SalaryParameterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/SalaryParameterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/EmployeeMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/EmployeeMapperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/PositionMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/PositionMapperDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,6 +369,14 @@
       <workItem from="1592215228109" duration="964000" />
       <workItem from="1592216226634" duration="1139000" />
     </task>
+    <task id="LOCAL-00001" summary="第二次传输By何人可">
+      <created>1592309280958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592309280958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +393,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第二次传输By何人可" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次传输By何人可" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592279181084">
