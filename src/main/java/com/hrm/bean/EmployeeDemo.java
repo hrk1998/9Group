@@ -5,28 +5,29 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.Date;
 
 public class EmployeeDemo {
-//员工编号
+    //员工编号
     private Integer EMP_ID;
-//员工姓名
+    //员工姓名
     private String EMP_NAME;
-//性别
+    //性别
     private String SEX;
-//政治面貌
-    private String POLITICS_STATUS;
-//地址
+    //地址
     private String ADDRESS;
-//电话号码
+    //电话号码
     private String TEL;
-//身份证
+    //身份证
     private String ID;
-//入职时间
+    //入职时间
     @JsonFormat(pattern="yyyy-MM-dd",timezone = "GMT+8")
     private Date HIREDATE;
-//职称
+    //生日
+    @JsonFormat(pattern="yyyy-MM-dd",timezone = "GMT+8")
+    private Date BIRTHDAY;
+    //职称
     private String TITLE;
-//职位
+    //职位
     private String POSITION;
-//权限
+    //权限
     private Integer PERMISSION;
 
     public Integer getEMP_ID() {
@@ -51,14 +52,6 @@ public class EmployeeDemo {
 
     public void setSEX(String SEX) {
         this.SEX = SEX;
-    }
-
-    public String getPOLITICS_STATUS() {
-        return POLITICS_STATUS;
-    }
-
-    public void setPOLITICS_STATUS(String POLITICS_STATUS) {
-        this.POLITICS_STATUS = POLITICS_STATUS;
     }
 
     public String getADDRESS() {
@@ -115,5 +108,13 @@ public class EmployeeDemo {
 
     public void setPERMISSION(Integer PERMISSION) {
         this.PERMISSION = PERMISSION;
+    }
+
+    public Date getBIRTHDAY() {
+        return BIRTHDAY;
+    }
+
+    public void setBIRTHDAY(Date BIRTHDAY) {
+        this.BIRTHDAY = BIRTHDAY;
     }
 }

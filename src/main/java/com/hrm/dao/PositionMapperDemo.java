@@ -19,6 +19,8 @@ public interface PositionMapperDemo {
      */
     //查询所有
     List<PositionDemo> queryAll();
+    //员工编号
+    PositionDemo queryByPosEmpId(Integer EMP_ID);
     //职位编号
     PositionDemo queryByPosId(Integer POS_ID);
     //职位名称
@@ -32,6 +34,8 @@ public interface PositionMapperDemo {
      */
     //删除所有
     int deleteAll();
+    //员工编号
+    int deleteByPosEmpId(Integer EMP_ID);
     //职位编号
     int deleteByPosId(Integer POS_ID);
     //职位名称

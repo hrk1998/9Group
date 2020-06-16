@@ -1,24 +1,22 @@
 package com.hrm.bean;
 
 public class SalaryDemo {
-//    员工编号
+    //员工编号
     private Integer EMP_ID;
-//    员工姓名
+    //员工姓名
     private String EMP_NAME;
-//    加班费
+    //加班费
     private Integer OVERDAL;
-//    基本工资
+    //基本工资
     private Integer BASESAL;
-//    奖金
+    //奖金
     private Integer REWARD;
-//    实发工资
+    //实发工资
     private Integer SAL;
-//    补贴
+    //补贴
     private Integer ALLO;
-//    扣款
+    //扣款
     private Integer CUT;
-//    病事假
-    private Integer IMPA;
 
     public Integer getEMP_ID() {
         return EMP_ID;
@@ -84,11 +82,4 @@ public class SalaryDemo {
         this.CUT = CUT;
     }
 
-    public Integer getIMPA() {
-        return IMPA;
-    }
-
-    public void setIMPA(Integer IMPA) {
-        this.IMPA = IMPA;
-    }
 }

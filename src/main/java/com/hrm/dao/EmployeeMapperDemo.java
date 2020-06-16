@@ -36,6 +36,9 @@ public interface EmployeeMapperDemo {
     //入职时间
     @JsonFormat(pattern="yyyy-MM-dd",timezone = "GMT+8")
     List<EmployeeDemo> queryByHiredate(Date HIREDATE);
+    //生日
+    @JsonFormat(pattern="yyyy-MM-dd",timezone = "GMT+8")
+    List<EmployeeDemo> queryByBirthday(Date BIRTHDAY);
     //职称
     List<EmployeeDemo> queryByTitle(String TITLE);
     //职位
@@ -65,6 +68,9 @@ public interface EmployeeMapperDemo {
     //入职时间
     @JsonFormat(pattern="yyyy-MM-dd",timezone = "GMT+8")
     int deleteByHiredate(Date HIREDATE);
+    //生日
+    @JsonFormat(pattern="yyyy-MM-dd",timezone = "GMT+8")
+    int deleteByBirthday(Date BIRTHDAY);
     //职称
     int deleteByTitle(String TITLE);
     //职位
