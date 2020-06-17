@@ -26,22 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f36781d-31ee-4f73-adce-bea0fe74c7b8" name="Default Changelist" comment="第三次传输——完成Mapper书写——By何人可">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/ChangeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/ChangeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/EmployeeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/EmployeeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/InstitutionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/InstitutionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/PaymentRecordDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/PaymentRecordDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/PositionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/PositionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/RecruitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/RecruitDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/SalaryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/SalaryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/bean/SalaryParameterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/bean/SalaryParameterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/ChangeMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/ChangeMapperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/EmployeeMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/EmployeeMapperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/InstitutionMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/InstitutionMapperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/PaymentRecordMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/PaymentRecordMapperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/PositionMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/PositionMapperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/RecruitMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/RecruitMapperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/SalaryMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/SalaryMapperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hrm/dao/SalaryParameterMapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hrm/dao/SalaryParameterMapperDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo_hrm-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo_hrm-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,53 +116,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="demo_hrm" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="demo_hrm" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/demo_hrm_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -378,6 +316,7 @@
       <workItem from="1576573924887" duration="4761000" />
       <workItem from="1592215228109" duration="964000" />
       <workItem from="1592216226634" duration="1139000" />
+      <workItem from="1592356789318" duration="2556000" />
     </task>
     <task id="LOCAL-00001" summary="第二次传输By何人可">
       <created>1592309280958</created>
@@ -393,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592311962857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第三次传输——完成Mapper书写——By何人可">
+      <created>1592312570388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592312570388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,54 +379,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592215649994" />
-    <state width="1024" height="266" key="GridCell.Tab.0.bottom" timestamp="1592306226413">
+    <state width="1024" height="29" key="GridCell.Tab.0.bottom" timestamp="1592312724390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592306226413" />
-    <state width="1024" height="266" key="GridCell.Tab.0.center" timestamp="1592306226413">
+    <state width="1024" height="29" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592312724390" />
+    <state width="1024" height="29" key="GridCell.Tab.0.center" timestamp="1592312724390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592306226413" />
-    <state width="1024" height="266" key="GridCell.Tab.0.left" timestamp="1592306226413">
+    <state width="1024" height="29" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592312724390" />
+    <state width="1024" height="29" key="GridCell.Tab.0.left" timestamp="1592312724390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592306226413" />
-    <state width="1024" height="266" key="GridCell.Tab.0.right" timestamp="1592306226413">
+    <state width="1024" height="29" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592312724390" />
+    <state width="1024" height="29" key="GridCell.Tab.0.right" timestamp="1592312724390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592306226413" />
-    <state width="1024" height="266" key="GridCell.Tab.1.bottom" timestamp="1592306226301">
+    <state width="1024" height="29" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592312724390" />
+    <state width="1024" height="29" key="GridCell.Tab.1.bottom" timestamp="1592312724391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592306226301" />
-    <state width="1024" height="266" key="GridCell.Tab.1.center" timestamp="1592306226301">
+    <state width="1024" height="29" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592312724391" />
+    <state width="1024" height="29" key="GridCell.Tab.1.center" timestamp="1592312724391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592306226301" />
-    <state width="1024" height="266" key="GridCell.Tab.1.left" timestamp="1592306226301">
+    <state width="1024" height="29" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592312724391" />
+    <state width="1024" height="29" key="GridCell.Tab.1.left" timestamp="1592312724390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592306226301" />
-    <state width="1024" height="266" key="GridCell.Tab.1.right" timestamp="1592306226301">
+    <state width="1024" height="29" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592312724390" />
+    <state width="1024" height="29" key="GridCell.Tab.1.right" timestamp="1592312724391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592306226301" />
-    <state width="1024" height="266" key="GridCell.Tab.2.bottom" timestamp="1592306226301">
+    <state width="1024" height="29" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592312724391" />
+    <state width="1024" height="29" key="GridCell.Tab.2.bottom" timestamp="1592312724391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592306226301" />
-    <state width="1024" height="266" key="GridCell.Tab.2.center" timestamp="1592306226301">
+    <state width="1024" height="29" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592312724391" />
+    <state width="1024" height="29" key="GridCell.Tab.2.center" timestamp="1592312724391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1592306226301" />
-    <state width="1024" height="266" key="GridCell.Tab.2.left" timestamp="1592306226301">
+    <state width="1024" height="29" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1592312724391" />
+    <state width="1024" height="29" key="GridCell.Tab.2.left" timestamp="1592312724391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1592306226301" />
-    <state width="1024" height="266" key="GridCell.Tab.2.right" timestamp="1592306226301">
+    <state width="1024" height="29" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1592312724391" />
+    <state width="1024" height="29" key="GridCell.Tab.2.right" timestamp="1592312724391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="266" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1592306226301" />
+    <state width="1024" height="29" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1592312724391" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1592216696561">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

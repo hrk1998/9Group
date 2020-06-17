@@ -2,13 +2,16 @@ D:\all\华迪\test\9Group\test\src\main\java\com\hrm\controller\user\LoginContro
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\bean\UserExample.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\controller\user\ForgetController.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dto\emp\objectTotal.java
+D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dao\SalaryMapperDemo.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\service\UserService.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\util\setCookie.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dto\emp\empDepSearchDTO.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\util\MailUtil.java
+D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dao\RecruitMapperDemo.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\bean\DepartmentExample.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\service\impl\EmployeeServiceImpl.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\bean\PositionDemo.java
+D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dao\SalaryParameterMapperDemo.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\interceptor\Token.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\util\MyTimeUtil.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dto\emp\employeePercentBySex.java
@@ -19,6 +22,7 @@ D:\all\华迪\test\9Group\test\src\main\java\com\hrm\util\JsonMsg.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\bean\ChangeDemo.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\bean\Department.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\interceptor\TokenInterceptor.java
+D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dao\PaymentRecordMapperDemo.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\bean\SalaryDemo.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\bean\RecruitDemo.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dao\EmployeeMapperDemo.java
@@ -38,6 +42,7 @@ D:\all\华迪\test\9Group\test\src\main\java\com\hrm\service\DepartmentService.j
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\util\MySecurity.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\interceptor\AuthorityInterceptor.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\bean\MyPage.java
+D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dao\InstitutionMapperDemo.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\service\impl\DepartmentServiceImpl.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\dao\ChangeMapperDemo.java
 D:\all\华迪\test\9Group\test\src\main\java\com\hrm\interceptor\LoginInterceptor.java

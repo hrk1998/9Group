@@ -1,6 +1,7 @@
 com\hrm\controller\main\DepartmentController.class
 com\hrm\interceptor\LoginInterceptor.class
 com\hrm\bean\EmployeeExample$GeneratedCriteria.class
+com\hrm\dao\PaymentRecordMapperDemo.class
 com\hrm\controller\user\LoginController.class
 com\hrm\dao\PositionMapperDemo.class
 com\hrm\service\UserService.class
@@ -9,6 +10,7 @@ com\hrm\bean\EmployeeDemo.class
 com\hrm\bean\PositionDemo.class
 com\hrm\bean\DepartmentExample$Criteria.class
 com\hrm\dto\emp\empDepSearchDTO.class
+com\hrm\dao\InstitutionMapperDemo.class
 com\hrm\bean\MyPage.class
 com\hrm\service\EmployeeService.class
 com\hrm\util\VerifyCode.class
@@ -28,10 +30,12 @@ com\hrm\service\impl\EmployeeServiceImpl.class
 com\hrm\bean\UserExample.class
 com\hrm\dao\EmployeeMapperDemo.class
 com\hrm\bean\SalaryParameterDemo.class
+com\hrm\dao\RecruitMapperDemo.class
 com\hrm\util\MailUtil.class
 com\hrm\util\MySecurity.class
 com\hrm\bean\ChangeDemo.class
 com\hrm\dao\ChangeMapperDemo.class
+com\hrm\dao\SalaryParameterMapperDemo.class
 com\hrm\bean\PaymentRecordDemo.class
 com\hrm\bean\EmployeeExample.class
 com\hrm\bean\SalaryDemo.class
@@ -39,6 +43,7 @@ com\hrm\interceptor\Token.class
 com\hrm\util\EmailVerifyCode.class
 com\hrm\bean\Employee.class
 com\hrm\bean\DepartmentExample.class
+com\hrm\dao\SalaryMapperDemo.class
 com\hrm\util\Layui.class
 com\hrm\util\setCookie.class
 com\hrm\bean\DepartmentExample$Criterion.class
