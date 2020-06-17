@@ -3,10 +3,12 @@ package com.hrm.dao;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.hrm.bean.RecruitDemo;
 import com.hrm.bean.SalaryDemo;
+import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.List;
 
+@Repository("salaryDao")
 /*
 对工资表进行操作
  */
@@ -61,4 +63,23 @@ public interface SalaryMapperDemo {
     int deleteByAllo(Integer ALLO);
     //扣款
     int deleteByCut(Integer CUT);
+
+    // update
+
+    //员工编号
+    int updateByEmpId(Integer EMP_ID);
+    //员工姓名
+    int updateByEmpName(String EMP_NAME);
+    //加班费
+    int updateByOversal(Integer OVERSAL);
+    //基本工资
+    int updateByBasesal(Integer BASESAL);
+    //奖金
+    int updateByReward(Integer REWARD);
+    //实发工资
+    int updateBySal(Integer SAL);
+    //补贴
+    int updateByAllo(Integer ALLO);
+    //扣款
+    int updateByCut(Integer CUT);
 }
