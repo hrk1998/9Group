@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.Date;
 
 public class Employee {
-    private Integer empid;
+    private Integer empid;//id
 
     private String empname;
 
