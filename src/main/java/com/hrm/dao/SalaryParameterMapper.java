@@ -8,7 +8,7 @@ import java.util.List;
 /*
 对工资操作表进行操作
  */
-public interface SalaryParameterMapperDemo {
+public interface SalaryParameterMapper {
     //插入
     void insertSalaryParameter(SalaryParameterDemo salaryParameterDemo);
 

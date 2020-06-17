@@ -12,12 +12,9 @@ import java.util.List;
 /*
 对工资表进行操作
  */
-public interface SalaryMapperDemo {
+public interface SalaryMapper {
     //插入
     void insertSalary(SalaryDemo salaryDemo);
-
-    //修改
-    void updateSalary(SalaryDemo salaryDemo);
 
     /*
     查找数据
