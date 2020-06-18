@@ -28,10 +28,26 @@ public class EmployeeDemo {
     private Date BIRTHDAY;
     //职称
     private String TITLE;
+    //教育程度
+    private String EDU_LV;
+    //民族
+    private String NATTION;
+    //籍贯
+    private String NATIVE;
     //职位
     private String POSITION;
+    //机构编号
+    private Integer INS_ID;
     //权限
     private Integer PERMISSION;
+    //计算性别比例
+    private Integer SexCount;
+    //计算岗位比例
+    private Integer PositionCount;
+    //计算职称比例
+    private Integer TitleCount;
+    //计算学历比例
+    private Integer EduLvCount;
 
     public Integer getEMP_ID() {
         return EMP_ID;
@@ -119,5 +135,69 @@ public class EmployeeDemo {
 
     public void setBIRTHDAY(Date BIRTHDAY) {
         this.BIRTHDAY = BIRTHDAY;
+    }
+
+    public String getEDU_LV() {
+        return EDU_LV;
+    }
+
+    public void setEDU_LV(String EDU_LV) {
+        this.EDU_LV = EDU_LV;
+    }
+
+    public String getNATTION() {
+        return NATTION;
+    }
+
+    public void setNATTION(String NATTION) {
+        this.NATTION = NATTION;
+    }
+
+    public String getNATIVE() {
+        return NATIVE;
+    }
+
+    public void setNATIVE(String NATIVE) {
+        this.NATIVE = NATIVE;
+    }
+
+    public Integer getINS_ID() {
+        return INS_ID;
+    }
+
+    public void setINS_ID(Integer INS_ID) {
+        this.INS_ID = INS_ID;
+    }
+
+    public Integer getSexCount() {
+        return SexCount;
+    }
+
+    public void setSexCount(Integer sexCount) {
+        SexCount = sexCount;
+    }
+
+    public Integer getPositionCount() {
+        return PositionCount;
+    }
+
+    public void setPositionCount(Integer positionCount) {
+        PositionCount = positionCount;
+    }
+
+    public Integer getTitleCount() {
+        return TitleCount;
+    }
+
+    public void setTitleCount(Integer titleCount) {
+        TitleCount = titleCount;
+    }
+
+    public Integer getEduLvCount() {
+        return EduLvCount;
+    }
+
+    public void setEduLvCount(Integer eduLvCount) {
+        EduLvCount = eduLvCount;
     }
 }

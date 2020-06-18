@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrm.dao.EmployeeMapperDemo">
+    <resultMap id="SexRationMap" type="com.hrm.bean.EmployeeDemo">
+        <result column="sex" property="SEX"/>
+        <result column="count" property="SexCount"/>
+    </resultMap>
+
+    <resultMap id="PositionRationMap" type="com.hrm.bean.EmployeeDemo">
+        <result column="position" property="POSITION"/>
+        <result column="count" property="PositionCount"/>
+    </resultMap>
+
+    <resultMap id="TitleRationMap" type="com.hrm.bean.EmployeeDemo">
+        <result column="title" property="TITLE"/>
+        <result column="count" property="TitleCount"/>
+    </resultMap>
+
+    <resultMap id="EduLvRationMap" type="com.hrm.bean.EmployeeDemo">
+        <result column="edu" property="EDU_LV"/>
+        <result column="count" property="EduLvCount"/>
+    </resultMap>
+
+    <select id="getSexRatio" resultMap="SexRationMap">
+        select e.SEX sex, COUNT(*) count
+        from tb_emp e
+        group by e.SEX
+        having count>=1
+    </select>
+
+    <select id="getPositionRatio" resultMap="PositionRationMap">
+        select e.POSITION position, COUNT(*) count
+        from tb_emp e
+        group by e.POSITION
+        having count>=1
+    </select>
+
+    <select id="getTitleRatio" resultMap="TitleRationMap">
+        select e.TITLE title, COUNT(*) count
+        from tb_emp e
+        group by e.TITLE
+        having count>=1
+    </select>
+
+    <select id="getEduLvRatio" resultMap="EduLvRationMap">
+        select e.EDU_LV edu, COUNT(*) count
+        from tb_emp e
+        group by e.EDU_LV
+        having count>=1
+    </select>
+</mapper>
