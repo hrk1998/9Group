@@ -19,7 +19,7 @@ public interface SalaryParameterMapper {
     //查询所有
     List<SalaryParameterDemo> queryAll();
     //员工编号
-    SalaryParameterDemo queryByEmpId(Integer EMP_ID);
+    List<SalaryParameterDemo> queryByEmpId(Integer EMP_ID);
     //公积金缓存系数
     List<SalaryParameterDemo> queryByDBPF(Integer DBPF);
     //保险激存系数

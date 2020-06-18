@@ -22,7 +22,7 @@ public interface SalaryMapper {
     //查询所有
     List<SalaryDemo> queryAll();
     //员工编号
-    SalaryDemo queryByEmpId(Integer EMP_ID);
+    List<SalaryDemo> queryByEmpId(Integer EMP_ID);
     //员工姓名
     List<SalaryDemo> queryByEmpName(String EMP_NAME);
     //加班费
