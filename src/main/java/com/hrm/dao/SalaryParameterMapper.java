@@ -12,8 +12,6 @@ public interface SalaryParameterMapper {
     //插入
     void insertSalaryParameter(SalaryParameterDemo salaryParameterDemo);
 
-    //修改
-    void updateSalaryParameter(SalaryParameterDemo salaryParameterDemo);
 
     /*
     查找数据
@@ -43,4 +41,16 @@ public interface SalaryParameterMapper {
     int deleteByIDB(Integer IDB);
     //所得税系数
     int deleteByITB(Integer ITB);
+
+    /*
+    更新数据
+     */
+    //员工编号
+    int updateEmpId(Integer EMP_ID);
+    //公积金缓存系数
+    int updateDBPF(Integer DBPF);
+    //保险激存系数
+    int updateIDB(Integer IDB);
+    //所得税系数
+    int updateITB(Integer ITB);
 }
