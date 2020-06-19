@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrm.dao.SalaryMapper">
+    <select id="queryByEmpId" parameterType="Integer" resultType="com.hrm.bean.SalaryDemo">
+        select * from tb_sal where EMP_ID = #{EMP_ID}
+    </select>
+
+    <select id="queryAll" resultType="com.hrm.bean.SalaryDemo">
+        select * from tb_sal
+    </select>
+
+    <select id="queryByEmpName" parameterType="String" resultType="com.hrm.bean.SalaryDemo">
+        select * from tb_sal where EMP_NAME = #{EMP_NAME}
+    </select>
+    
+    <delete id="deleteAll()">
+        delete from tb_sal
+    </delete>
+
+    <delete id="deleteByEmpId" parameterType="EMP_ID">
+        delete from tb_sal where EMP_ID = #{EMP_ID}
+    </delete>
+
+    <delete id="deleteByEmpName" parameterType="String">
+        delete from tb_sal where EMP_NAME = #{EMP_NAME}
+    </delete>
+
+    <insert id="insertSalary" parameterType="com.hrm.bean.SalaryDemo" useGeneratedKeys="true" keyProperty="EMP_ID">
+        insert into tb_sal(EMP_ID,EMP_NAME,OVERSAL,BASESAL,REWARD, SAL,ALLO,CUT) values (#{EMP_ID},#{EMP_NAME},#{OVERSAL},#{BASESAL},#{REWARD}, #{SAL},#{ALLO},#{CUT})
+    </insert>
+
+    <update id="updateSalInfo" parameterType="com.hrm.bean.SalaryDemo">
+        UPDATE  tb_sal
+        <set>
+            <if test="EMP_NAME != null and EMP_NAME ！= ''">
+                EMP_NAME=#{EMP_NAME},
+            </if>
+            <if test="OVERSAL != null and OVERSAL!=''">
+                OVERSAL=#{OVERSAL},
+            </if>
+            <if test="BASESAL !=null and BASESAL!=''">
+                BASESAL=#{BASESAL},
+            </if>
+            <if test="REWARD !=null and REWARD!=''">
+                REWARD=#{REWARD},
+            </if>
+            <if test="SAL !=null and SAL!=''">
+                SAL=#{SAL},
+            </if>
+            <if test="ALLO !=null and ALLO!=''">
+                ALLO=#{ALLO},
+            </if>
+            <if test="CUT !=null and CUT!=''">
+                CUT=#{CUT},
+            </if>
+        </set>
+        where EMP_ID = #{EMP_ID}
+    </update>
+</mapper>

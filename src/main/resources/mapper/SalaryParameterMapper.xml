@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrm.dao.SalaryParameterMapper">
+    <select id="queryByEmpId" parameterType="Integer" resultType="com.hrm.bean.SalaryDemo">
+        select * from tb_sal_para where EMP_ID = #{EMP_ID}
+    </select>
+    <select id="queryAll" resultType="com.hrm.bean.SalaryParameterDemo">
+        select * from tb_sal_para
+    </select>
+    
+    <delete id="deleteAll()">
+        delete from tb_sal_para
+    </delete>
+    
+    <delete id="deleteByEmpId" parameterType="EMP_ID">
+        delete from tb_sal_para where EMP_ID = #{EMP_ID}
+    </delete>
+    
+    <insert id="insertSalaryParameter" parameterType="com.hrm.bean.SalaryParameterDemo">
+        insert into tb_sal_para(EMP_ID,DBPF,IDB,ITB) values(#{EMP_ID},#{DBPF},#{IDB},#{ITB})
+    </insert>
+
+    <update id="updateSalParaInfo" parameterType="com.hrm.bean.SalaryParameterDemo">
+        UPDATE tb_sal_para
+        <set>
+            <if test="DBPF!=null and DBPF!=''">
+                DBPF=#{DBPF},
+            </if>
+            <if test="IDB!=null and IDB!=''">
+                IDB=#{IDB},
+            </if>
+            <if test="ITB!=null and ITB!=''">
+                ITB=#{ITB},
+            </if>
+        </set>
+        where EMP_ID = #{EMP_ID}
+    </update>
+</mapper>
