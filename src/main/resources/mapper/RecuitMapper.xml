@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrm.dao.RecruitMapper">
+    <!--插入招聘信息-->
+    <insert id="InsertSalaryParameter" parameterType="com.hrm.bean.RecruitDemo" useGeneratedKeys="true" keyProperty="RECR_ID">
+            INSERT INTO tb_recr(RECR_ID,ISSUER,RECR_POS,RECP_NUM,RECR_DAY,ITRO) values (#{RECR_ID},#{ISSUER},#{RECR_POS},#{RECP_NUM},#{RECR_DAY},#{ITRO})
+    </insert>
+    <!--修改招聘信息-->
+    <update id="updateRecruit" parameterType="com.hrm.bean.RecruitDemo">
+        UPDATE tb_recr
+        <set>
+            <if test="ISSUER!=null and ISSUER!=''">
+                ISSUER=#{ISSUER},
+            </if>
+            <if test="RECR_POS!=null and RECR_POS!=''">
+                RECR_POS=#{RECR_POS},
+            </if>
+            <if test="RECP_NUM!=null and RECP_NUM!=''">
+                RECP_NUM=#{RECP_NUM},
+            </if>
+            <if test="!=null and !=''">
+                RECR_DAY=#{RECR_DAY},
+            </if>
+            <if test="!=null and !=''">
+                ITRO=#{ITRO}
+            </if>
+        </set>
+        where RECR_ID=#{RECR_ID}
+    </update>
+    <!--查询所有-->
+    <select id="queryAll" resultType="com.hrm.bean.RecruitDemo">
+        select * from tb_recr
+    </select>
+
+    <select id="queryByRecrId" parameterType="Integer" resultType="com.hrm.bean.RecruitDemo">
+        select * from tb_recr where RECR_ID=#{RECR_ID}
+    </select>
+
+    <select id="queryByIssuer" parameterType="String" resultType="com.hrm.bean.RecruitDemo">
+        select * from rb_recr where ISSUER=#{ISSUER}
+    </select>
+
+    <select id="queryByRecrPos" parameterType="String" resultType="com.hrm.bean.RecruitDemo">
+        select * from rb_recr where RECR_POS=#{RECR_POS}
+    </select>
+
+    <select id="queryByRecrDay" parameterType="Date" resultType="com.hrm.bean.RecruitDemo">
+        select * from rb_recr where RECR_DAY=#{RECR_DAY}
+    </select>
+
+    <!--删除所有-->
+    <delete id="deleteAll">
+        delete form tb_recr
+    </delete>
+
+    <delete id="deleteByRecrId" parameterType="Integer">
+        delete form tb_recr where RECR_ID=#{RECR_ID}
+    </delete>
+
+    <delete id="deleteByIssuer" parameterType="String">
+        delete * from rb_recr where ISSUER=#{ISSUER}
+    </delete>
+
+    <delete id="deleteByRecrPos" parameterType="String">
+        delete * from rb_recr where RECR_POS=#{RECR_POS}
+    </delete>
+
+    <delete id="deleteByRecrDay" parameterType="Date">
+        delete * from rb_recr where RECR_DAY=#{RECR_DAY}
+    </delete>
+</mapper>
