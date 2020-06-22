@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrm.dao.PositionMapperDemo">
+    <select id="queryByPosId" parameterType="Integer" resultType="com.hrm.bean.PositionDemo">
+        select * from tb_pos where POS_ID = #{POS_ID}
+    </select>
+
+    <select id="queryAll" resultType="com.hrm.bean.PositionDemo">
+        select * from tb_pos
+    </select>
+
+    <select id="queryByPosName" parameterType="String" resultType="com.hrm.bean.PositionDemo">
+        select * from tb_pos where POS_NAME = #{POS_NAME}
+    </select>
+
+    <delete id="deleteAll()">
+        delete from tb_pos
+    </delete>
+
+    <delete id="deleteByPosId" parameterType="POS_ID">
+        delete from tb_pos where POS_ID = #{POS_ID}
+    </delete>
+
+    <delete id="deleteByPosName" parameterType="String">
+        delete from tb_pos where POS_NAME = #{POS_NAME}
+    </delete>
+
+    <insert id="insertPosition" parameterType="com.hrm.bean.PositionDemo" useGeneratedKeys="true" keyProperty="POS_ID">
+        insert into tb_pos(POS_ID,POS_NAME,POS_FUNC) values (#{POS_ID},#{POS_NAME},#{POS_FUNC})
+    </insert>
+
+    <update id="updatePosInfo" parameterType="com.hrm.bean.PositionDemo">
+        UPDATE  tb_pos
+        <set>
+            <if test="POS_NAME != null and POS_NAME ！= ''">
+                POS_NAME=#{POS_NAME},
+            </if>
+            <if test="POS_FUNC != null and POS_FUNC!=''">
+                POS_FUNC=#{POS_FUNC},
+            </if>
+        </set>
+        where POS_ID = #{POS_ID}
+    </update>
+</mapper>

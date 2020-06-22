@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrm.dao.InstitutionMapperDemo">
+    <select id="queryByInsId" parameterType="Integer" resultType="com.hrm.bean.InstitutionDemo">
+        select * from tb_ins where INS_ID = #{INS_ID}
+    </select>
+
+    <select id="queryAll" resultType="com.hrm.bean.InstitutionDemo">
+        select * from tb_ins
+    </select>
+
+    <select id="queryByInsName" parameterType="String" resultType="com.hrm.bean.InstitutionDemo">
+        select * from tb_ins where INS_NAME = #{INS_NAME}
+    </select>
+
+    <delete id="deleteAll()">
+        delete from tb_ins
+    </delete>
+
+    <delete id="deleteByInsId" parameterType="INS_ID">
+        delete from tb_ins where INS_ID = #{INS_ID}
+    </delete>
+
+    <delete id="deleteByInsName" parameterType="String">
+        delete from tb_ins where INS_NAME = #{INS_NAME}
+    </delete>
+
+    <insert id="insertInstitution" parameterType="com.hrm.bean.InstitutionDemo" useGeneratedKeys="true" keyProperty="INS_ID">
+        insert into tb_ins(INS_ID,INS_NAME,INS_NOMES,FINS_ID) values (#{INS_ID},#{INS_NAME},#{INS_NOMES},#{FINS_ID})
+    </insert>
+
+    <update id="updateInsInfo" parameterType="com.hrm.bean.InstitutionDemo">
+        UPDATE  tb_ins
+        <set>
+            <if test="INS_NAME != null and INS_NAME ！= ''">
+                INS_NAME=#{INS_NAME},
+            </if>
+            <if test="INS_NOMES != null and INS_NOMES!=''">
+                INS_NOMES=#{INS_NOMES},
+            </if>
+            <if test="FINS_ID != null and INS_NOMES!=''">
+                FINS_ID=#{FINS_ID},
+            </if>
+        </set>
+        where INS_ID = #{INS_ID}
+    </update>
+</mapper>
